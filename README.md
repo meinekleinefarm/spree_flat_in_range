@@ -13,19 +13,9 @@ Usage
 
 Add to your gemfile in a Spree application:
 
-`` gem 'spree_flat_in_range', '~> 0.1.x' ``
+`` gem 'spree_flat_in_range'
 
 Then visit shipping or tax to use the calculation.
-
-
-TODO
-=======
-
-* Introduce Percent based on range; to allow things like **$10 to $30 gives you 10% discount, above $30
-gives you 15%**.
-* Introduce "infinate" as possible upper boundry; so admins can provide
-  cases like **above $100** easier; now they have to simple give a really
-  large number.
 
 Testing
 -------
