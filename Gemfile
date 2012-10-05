@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 group :test do
-  gem "spree_auth"
+  gem "spree_auth_devise", :git => "git://github.com/spree/spree_auth_devise"
   gem 'ffaker'
 end
 
